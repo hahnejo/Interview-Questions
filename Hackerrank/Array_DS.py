@@ -2,7 +2,8 @@ def reverseArray(a):
     new = []
     for item in reversed(a):
         new.append(item)
-    print (*new)
+    print (new)
+    return new
 
 def main():
     arr = [5,6,7,8]
